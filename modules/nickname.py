@@ -1,4 +1,4 @@
-def ingresar(historial):
+def ingresarDos(historial):
     nickname1= input('Ingrese el apodo del jugador #1')
     if nickname1 not in historial:
         print(f'Bienvenido {nickname1}, es el jugador #1')
@@ -12,3 +12,11 @@ def ingresar(historial):
         print('Este apodo ya fue usado, ingrese un nuevo apodo')
         return
     
+def ingresarUno(historial):
+    nickname= input('Ingrese el apodo del jugador')
+    if nickname not in historial:
+        print(f'Bienvenido {nickname}')
+
+    elif nickname in historial:
+        print('Este apodo ya fue usado, ingrese un nuevo apodo')
+        return

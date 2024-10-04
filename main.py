@@ -27,17 +27,58 @@ if (__name__ == "__main__"):
                             
                             match opcIngresar:
                                 case 1:
-                                    print(nn.ingresar)
+                                    print(nn.ingresarUno)
                                     os.system('pause')
                                 case 2:
-                                    pass
+                                    print(nn.ingresarDos)
+                                    os.system('pause')
                         except ValueError:
                             print('error en el dato ingresado')
                             os.system ('pause')
                 case 2:
-                    pass
+                    isHistorial = True
+                    while (isHistorial):
+                        try:
+                            os.system('cls')
+                            print(msg.tituloHistorial)
+                            print(mn.menuHistorial)
+                            match opcIngresar:
+                                case 1:
+                                    print()
+                                    os.system('pause')
+                                case 2:
+                                    print()
+                                    os.system('pause')
+                                case 3:
+                                    print()
+                                    os.system('pause')
+                        except ValueError:
+                            print('error en el dato ingresado')
+                            os.system ('pause')
                 case 3: 
-                    pass
+                    isEstadisticas=True
+                    while (isEstadisticas):
+                        try:
+                            os.system('cls')
+                            print(msg.tituloHistorial)
+                            print(mn.menuHistorial)
+                            match opcIngresar:
+                                case 1:
+                                    print()
+                                    os.system('pause')
+                                case 2:
+                                    print()
+                                    os.system('pause')
+                                case 3:
+                                    print()
+                                    os.system('pause')
+                                case 4:
+                                    print()
+                                    os.system('pause')
+                        except ValueError:
+                            print('error en el dato ingresado')
+                            os.system ('pause')
         except ValueError:
             print('Error en el dato ingresado')
             os.system('pause') 
+    

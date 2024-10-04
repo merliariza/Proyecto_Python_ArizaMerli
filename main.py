@@ -17,7 +17,21 @@ if __name__ == "__main__":
             opcMenu = int(input(':)_'))
             match opcMenu:
                 case 1:
-                    pass
+                    isIngresar = True
+                    while isIngresar:
+                        try:
+                            os.system('cls')
+                            print(msg.tituloIngresar)
+                            print(mn.menuIngresar)
+                            opcIngresar = int(input(':)_'))
+                            match opcIngresar:
+                                case 1:
+                                    pass
+                                case 2:
+                                    pass
+                        except ValueError:
+                            print('error en el dato ingresado')
+                            os.system ('pause')
                 case 2:
                     pass
                 case 3: 

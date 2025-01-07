@@ -4,7 +4,7 @@ import modules.menu as mn
 import modules.mensajes as msg
 import modules.nickname as nn
 import modules.validate as val
-import modules.datos as da
+import datos as da
 import modules.estadisticas as es
 from modules import historial as hi
 
